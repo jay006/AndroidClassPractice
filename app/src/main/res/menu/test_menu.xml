@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mark1"
+        android:title="Mark 1"
+        app:showAsAction="never"
+        android:icon="@android:drawable/btn_plus"/>
+
+    <item
+        android:id="@+id/mark2"
+        android:title="Mark 2"
+        app:showAsAction="ifRoom"
+        android:icon="@android:drawable/btn_plus"/>
+
+    <item
+        android:id="@+id/mark3"
+        android:title="Mark 3"
+        app:showAsAction="always"
+        android:icon="@android:drawable/btn_plus"/>
+
+</menu>

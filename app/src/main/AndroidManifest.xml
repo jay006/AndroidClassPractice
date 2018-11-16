@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.joker.androidclasspractice">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_shop_black_24dp"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_shop_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Main2Activity" />
+        <activity android:name=".Main3Activity" />
+        <activity android:name=".Main4Activity" />
+        <activity android:name=".Main5Activity" />
+        <activity android:name=".Main6Activity" />
+        <activity android:name=".MenuActivity" />
+        <activity android:name=".ExplicitOne" />
+        <activity android:name=".ExplicitTwo" />
+        <activity android:name=".ImageCaptureActivity"/>
+        <activity android:name=".DialogActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
